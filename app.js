@@ -20,7 +20,7 @@ clicks.forEach(element => {
             resMsg.innerHTML = "Paper covers rock. Computer wins!"
             compScore.innerHTML ++;
         } else if (human =="rock" && computer == "scissors"){           
-            resMsg.innerHTML = "Rock covers Scissors. You win!"
+            resMsg.innerHTML = "Rock crushes Scissors. You win!"
             userScore.innerHTML ++;
         } else if (human =="rock" && computer == "rock"){
             resMsg.innerHTML = "Tie!";      
@@ -37,7 +37,7 @@ clicks.forEach(element => {
         }
         //------------------------
         if (human =="scissors" && computer == "rock"){
-            resMsg.innerHTML = "Rock covers scissors. Computer wins!";            
+            resMsg.innerHTML = "Rock crushes scissors. Computer wins!";            
             compScore.innerHTML ++;
         } else if (human =="scissors" && computer == "paper"){           
             resMsg.innerHTML = "Scissors cuts paper. You win!";
